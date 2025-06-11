@@ -104,6 +104,36 @@ Your React Native environment is now ready. Explore the `my-app` project, make c
 
 ---
 
+
+# React Native Cleanup - Hello World App
+
+This document provides steps to simplify your newly created React Native (Expo) project by removing unnecessary boilerplate and making the app minimal.
+
+## Steps to Clean Up Boilerplate Code
+
+- Delete the `assets` folder.
+  - This folder usually contains images and icons provided by default in the Expo template.
+  - For a basic "Hello World" app, this folder is not required.
+
+- Update the `App.js` file with the following simplified code:
+
+```js
+import { Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View>
+      <Text style={{fontSize:30}}>Hello React Native</Text>
+    </View>
+  );
+}
+```
+## Final Outcome
+
+- You will see a white screen with the message "Hello React Native" in large font.
+- This is the minimal setup to get started and understand how a React Native app renders text on screen.
+
+
 ## Future Apps
 
 ## 🔗 Useful Links
