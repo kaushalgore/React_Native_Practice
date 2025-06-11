@@ -36,7 +36,8 @@ npx create-expo-app my-app --template
 - `npx`: Runs the command using the latest version from the internet without installing globally.
 - `create-expo-app`: CLI utility to create an Expo-based React Native app.
 - A CLI is a text-based interface that lets you interact with your computer or tools by typing commands into a terminal or command prompt.
-  ######Common Uses of CLI
+
+  ###### Common Uses of CLI
   - Creating projects (e.g., create-react-app, create-expo-app)
   - Running development servers (e.g., npm start, expo start)
   - Building apps (e.g., eas build)
